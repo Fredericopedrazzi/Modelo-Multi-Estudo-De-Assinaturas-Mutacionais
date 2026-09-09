@@ -21,20 +21,16 @@ This repository contains the Bayesian multi-study Non-Negative Matrix Factorizat
 ---
 
 ## 📁 Repository Structure
-
-```text
 ├── R/
-│   ├── math_score.R         # Calculates MATH Score from TCGA MAF files
-│   ├── cosmic_matching.R    # Cosine similarity calculation against COSMIC v3.6
-│   ├── survival_analysis.R  # Kaplan-Meier survival analysis
-│   └── forest_plots.R       # Cox proportional hazard ratios and Forest plots
+│   ├── Funcoes_analises_MEstudo.r       # Funções auxiliares e análises do estudo
+│   └── De_novo.R                        # Script para extração de assinaturas de novo
 ├── src/
-│   ├── mcmc_sampler.cpp     # High-performance C++ implementation of the MCMC sampler
-│   └── RcppExports.cpp      # Auto-generated Rcpp bindings
+│   └── Gibbs_Sampler_D.cpp              # Implementação do amostrador de Gibbs em C++
 ├── data/
-│   ├── readme.md            # Data access instructions (TCGA GDC Portal)
-│   └── count_matrices.RData # Preprocessed mutation count matrices
-├── figs/                    # Exported figures from paper (Boxplots, Heatmaps, Survival)
-├── main.R                   # Master pipeline script execution
-├── LICENSE                  # Open-source MIT License
-└── README.md                # Project documentation
+│   ├── all.tcga-clinical-indexed.tsv    # Dados clínicos indexados do TCGA
+│   ├── COSMIC_SBS96_hg38_ordered.txt    # Referência mutacional COSMIC (SBS96 hg38)
+│   ├── countsMATH_Homogeneos_COAD.txt   # Matrizes de contagem - COAD Homogêneos
+│   └── countsMATH_Heterogeneos_COAD.txt # Matrizes de contagem - COAD Heterogêneos
+├── figs/                                # Pasta vazia para receber futuros gráficos/outputs
+├── Input_Multi_Estudo.R                 # Script principal (Atua como o "main.R" do projeto)
+└── README.md                            # Documentação principal
