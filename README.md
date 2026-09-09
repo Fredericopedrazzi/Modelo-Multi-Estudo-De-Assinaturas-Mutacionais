@@ -1,4 +1,4 @@
-#  A Multi-Study Modeling Approach
+# A Multi-Study Modeling Approach
 
 [![R-project](https://img.shields.io/badge/Language-R-blue.svg)](https://www.r-project.org/)
 [![C++](https://img.shields.io/badge/Language-C++-orange.svg)](https://isocpp.org/)
@@ -21,16 +21,18 @@ This repository contains the Bayesian multi-study Non-Negative Matrix Factorizat
 ---
 
 ## 📁 Repository Structure
+
+```text
 ├── R/
-│   ├── Funcoes_analises_MEstudo.r       # Funções auxiliares e análises do estudo
-│   └── De_novo.R                        # Script para extração de assinaturas de novo
+│   ├── Funcoes_analises_MEstudo.r       # Auxiliary functions and study analyses
+│   └── De_novo.R                        # Script for de novo signature extraction
 ├── src/
-│   └── Gibbs_Sampler_D.cpp              # Implementação do amostrador de Gibbs em C++
+│   └── Gibbs_Sampler_D.cpp              # Gibbs sampler implementation in C++
 ├── data/
-│   ├── all.tcga-clinical-indexed.tsv    # Dados clínicos indexados do TCGA
-│   ├── COSMIC_SBS96_hg38_ordered.txt    # Referência mutacional COSMIC (SBS96 hg38)
-│   ├── countsMATH_Homogeneos_COAD.txt   # Matrizes de contagem - COAD Homogêneos
-│   └── countsMATH_Heterogeneos_COAD.txt # Matrizes de contagem - COAD Heterogêneos
-├── figs/                                # Pasta vazia para receber futuros gráficos/outputs
-├── Input_Multi_Estudo.R                 # Script principal (Atua como o "main.R" do projeto)
-└── README.md                            # Documentação principal
+│   ├── all.tcga-clinical-indexed.tsv    # TCGA indexed clinical data
+│   ├── COSMIC_SBS96_hg38_ordered.txt    # COSMIC mutational reference (SBS96 hg38)
+│   ├── countsMATH_Homogeneos_COAD.txt   # Count matrices - COAD Homogeneous
+│   └── countsMATH_Heterogeneos_COAD.txt # Count matrices - COAD Heterogeneous
+├── figs/                                # Exported figures and plot outputs
+├── Input_Multi_Estudo.R                 # Main script execution pipeline
+└── README.md                            # Project documentation
