@@ -1,16 +1,3 @@
-###########################################################
-#    Manipulação dos dados para graficar as Exposições       #<---- código essencial para a classe que vai executar
-###########################################################
-
-#S <- length(dados$A_list)
-#E_list_medio <- list()
-
-#for (s in 1:S) {
-    
-#  E_list_medio[[s]] <- dados$E_list_medio[[s]]
-      
-#}  
-
 #############################################
 #     Histograma Assinaturas Mutacionais
 ############################################
