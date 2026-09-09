@@ -1,4 +1,4 @@
-# Unveiling Mutational Signatures in Colon Adenocarcinoma: A Multi-Study Modeling Approach
+#  A Multi-Study Modeling Approach
 
 [![R-project](https://img.shields.io/badge/Language-R-blue.svg)](https://www.r-project.org/)
 [![C++](https://img.shields.io/badge/Language-C++-orange.svg)](https://isocpp.org/)
