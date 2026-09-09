@@ -10,7 +10,7 @@ library(IRdisplay)
 # Parâmetros
 # ---------------------------
 i <- 96
-n_signatures <- 8
+n_signatures <- 50
 S <- 2
 num_iterations <- 13000
 
