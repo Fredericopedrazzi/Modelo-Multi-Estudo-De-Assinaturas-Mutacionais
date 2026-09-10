@@ -24,7 +24,7 @@ This repository contains a Bayesian MCMC sampler for Non-negative Matrix Factori
 
 ```text
 ├── R/
-│   ├── Funcoes_analises_MEstudo.r       # Auxiliary functions and study analyses
+│   ├── Funcoes_analises_MEstudo.r       # Auxiliary functions for result analysis
 │   └── De_novo.R                        # Script for de novo signature extraction
 ├── src/
 │   └── Gibbs_Sampler_D.cpp              # Gibbs sampler implementation in C++
