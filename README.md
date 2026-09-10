@@ -6,7 +6,7 @@
 
 Official repository for the research paper **"Unveiling Mutational Signatures in Colon Adenocarcinoma: A Multi-Study Modeling Approach"** (2026).
 
-This repository contains the Bayesian multi-study Non-Negative Matrix Factorization (NMF) MCMC sampler, dataset preprocessing code for TCGA-COAD/HNSC cohorts, and complete downstream clinical evaluation pipelines (Kaplan-Meier survival curves and Cox Forest plots).
+This repository contains a Bayesian MCMC sampler for Non-negative Matrix Factorization (NMF) across multiple studies, code for processing SNV (Single Nucleotide Variant) mutation count matrices, and complete pipelines for subsequent clinical evaluation (Kaplan-Meier survival curves and Cox forest plots).
 
 ---
 
